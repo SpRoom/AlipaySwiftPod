@@ -1,0 +1,6 @@
+module AlipaySwiftPod [system] {
+    header "../alipaySDK.framework/Headers/AlipaySDK.h"
+    header "../alipaySDK.framework/Headers/APayAuthInfo.h"
+
+    export *
+}
