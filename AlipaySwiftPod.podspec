@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AlipaySwiftPod'
-  s.version          = '15.6.2.pre'
+  s.version          = '0.0.33'
   s.summary          = 'alipay pod framework swift support'
   s.swift_version = '4.2'
 
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'AlipaySwiftPod/**/*'
   
-  s.resource = 'AlipaySwiftPod/*.bundle'
+  s.resource = 'AlipaySwiftPod/AlipaySDK.bundle'
   
    # s.resource_bundles = {
    #    'AlipaySwiftPod' => ['AlipaySwiftPod/Assets/*.png']
@@ -45,12 +45,14 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.static_framework = true
-
-  s.libraries = 'libc++', 'libz'
-  s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'UIKit', 'Foundation', 'CoreMotion', 'CFNetwork', 'CoreGraphics', 'CFNetwork', 'Security'
+  s.frameworks   = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
+  s.libraries    = 'c++', 'z'
+  # s.libraries = 'c++', 'z'
+  # s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'UIKit', 'Foundation', 'CoreMotion', 'CFNetwork', 'CoreGraphics', 'CFNetwork', 'Security'
   # s.vendored_libraries = 'AlipaySwiftPod/libWeChatSDK.a'
   #s.vendored_frameworks = 'XQCPaySDK/Frameworks/YSSDK.framework', 'XQCPaySDK/Frameworks/YSEPaySDK.framework'
-  s.vendored_frameworks = 'AlipaySwiftPod/AlipaySDK'
+  s.vendored_frameworks = 'AlipaySwiftPod/AlipaySDK.framework'
+  s.vendored_libraries = 'AlipaySwiftPod/libcrypto.a', 'AlipaySwiftPod/libssl.a'
   #s.public_header_files = 'XQCPaySDK/Frameworks/YSEPaySDK.framework/Headers/YSEPay.h'
   #s.private_header_files = 'XQCPaySDK/Frameworks/YSEPaySDK.framework/Headers/YSEPay.h'
   

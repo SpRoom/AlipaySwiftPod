@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		56F8B38F229519C100F0C2D1 /* AlipaySwiftPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F8B38D229519C100F0C2D1 /* AlipaySwiftPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56F8B39622951A2400F0C2D1 /* AlipaySwiftPod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 56F8B39522951A2400F0C2D1 /* AlipaySwiftPod.xcconfig */; };
+		56F8B3A0229525C800F0C2D1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B39F229525C700F0C2D1 /* libc++.tbd */; };
+		56F8B3A2229525CF00F0C2D1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3A1229525CF00F0C2D1 /* libz.tbd */; };
+		56F8B3A4229525D600F0C2D1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3A3229525D600F0C2D1 /* SystemConfiguration.framework */; };
+		56F8B3A9229525F200F0C2D1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3A5229525F200F0C2D1 /* CoreText.framework */; };
+		56F8B3AA229525F200F0C2D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3A6229525F200F0C2D1 /* CoreGraphics.framework */; };
+		56F8B3AB229525F200F0C2D1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3A7229525F200F0C2D1 /* CoreTelephony.framework */; };
+		56F8B3AC229525F200F0C2D1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3A8229525F200F0C2D1 /* CoreMotion.framework */; };
+		56F8B3AE229525FA00F0C2D1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3AD229525F900F0C2D1 /* QuartzCore.framework */; };
+		56F8B3B02295260200F0C2D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3AF2295260200F0C2D1 /* UIKit.framework */; };
+		56F8B3B22295260800F0C2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3B12295260800F0C2D1 /* Foundation.framework */; };
+		56F8B3B42295261500F0C2D1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8B3B32295261500F0C2D1 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +28,17 @@
 		56F8B38E229519C100F0C2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56F8B39522951A2400F0C2D1 /* AlipaySwiftPod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AlipaySwiftPod.xcconfig; sourceTree = "<group>"; };
 		56F8B39722951A3100F0C2D1 /* AlipaySwiftPod.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = AlipaySwiftPod.modulemap; sourceTree = "<group>"; };
+		56F8B39F229525C700F0C2D1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		56F8B3A1229525CF00F0C2D1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		56F8B3A3229525D600F0C2D1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		56F8B3A5229525F200F0C2D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		56F8B3A6229525F200F0C2D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56F8B3A7229525F200F0C2D1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		56F8B3A8229525F200F0C2D1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		56F8B3AD229525F900F0C2D1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56F8B3AF2295260200F0C2D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56F8B3B12295260800F0C2D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56F8B3B32295261500F0C2D1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +46,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F8B3B42295261500F0C2D1 /* CFNetwork.framework in Frameworks */,
+				56F8B3B22295260800F0C2D1 /* Foundation.framework in Frameworks */,
+				56F8B3B02295260200F0C2D1 /* UIKit.framework in Frameworks */,
+				56F8B3AE229525FA00F0C2D1 /* QuartzCore.framework in Frameworks */,
+				56F8B3A9229525F200F0C2D1 /* CoreText.framework in Frameworks */,
+				56F8B3AA229525F200F0C2D1 /* CoreGraphics.framework in Frameworks */,
+				56F8B3AB229525F200F0C2D1 /* CoreTelephony.framework in Frameworks */,
+				56F8B3AC229525F200F0C2D1 /* CoreMotion.framework in Frameworks */,
+				56F8B3A4229525D600F0C2D1 /* SystemConfiguration.framework in Frameworks */,
+				56F8B3A2229525CF00F0C2D1 /* libz.tbd in Frameworks */,
+				56F8B3A0229525C800F0C2D1 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +68,7 @@
 			children = (
 				56F8B38C229519C100F0C2D1 /* AlipaySwiftPod */,
 				56F8B38B229519C100F0C2D1 /* Products */,
+				56F8B39E229525C700F0C2D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +89,24 @@
 				56F8B39722951A3100F0C2D1 /* AlipaySwiftPod.modulemap */,
 			);
 			path = AlipaySwiftPod;
+			sourceTree = "<group>";
+		};
+		56F8B39E229525C700F0C2D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56F8B3B32295261500F0C2D1 /* CFNetwork.framework */,
+				56F8B3B12295260800F0C2D1 /* Foundation.framework */,
+				56F8B3AF2295260200F0C2D1 /* UIKit.framework */,
+				56F8B3AD229525F900F0C2D1 /* QuartzCore.framework */,
+				56F8B3A6229525F200F0C2D1 /* CoreGraphics.framework */,
+				56F8B3A8229525F200F0C2D1 /* CoreMotion.framework */,
+				56F8B3A7229525F200F0C2D1 /* CoreTelephony.framework */,
+				56F8B3A5229525F200F0C2D1 /* CoreText.framework */,
+				56F8B3A3229525D600F0C2D1 /* SystemConfiguration.framework */,
+				56F8B3A1229525CF00F0C2D1 /* libz.tbd */,
+				56F8B39F229525C700F0C2D1 /* libc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +327,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySwiftPod",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/AlipaySwiftPod";
 				INFOPLIST_FILE = AlipaySwiftPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,6 +339,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySwiftPod",
+				);
+				MODULEMAP_FILE = "$(SRCROOT)/AlipaySwiftPod/AlipaySwiftPod.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhly.AlipaySwiftPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -301,6 +363,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySwiftPod",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/AlipaySwiftPod";
 				INFOPLIST_FILE = AlipaySwiftPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,6 +375,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlipaySwiftPod",
+				);
+				MODULEMAP_FILE = "$(SRCROOT)/AlipaySwiftPod/AlipaySwiftPod.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhly.AlipaySwiftPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
